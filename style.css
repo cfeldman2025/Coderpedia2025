@@ -1,0 +1,291 @@
+h1 {
+  font-size: 12.5px;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+h2 {
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  text-decoration: underline;
+}
+h3 {
+  font-size: 15px;
+  margin-left: -40px;
+  text-transform: uppercase;
+  font-family: "Edu VIC WA NT Hand", cursive;
+  padding-left: 2px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1px;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 15px;
+  margin-left: -40px;
+  text-transform: uppercase;
+  font-family: "Edu VIC WA NT Hand", cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  letter-spacing: 2px;
+}
+h5 {
+  font-size: 15px;
+  margin-left: -40px;
+  text-transform: uppercase;
+  font-family: "Edu VIC WA NT Hand", cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+h6 {
+  font-size: 15px;
+  margin-left: -40px;
+  text-transform: uppercase;
+  font-family: "Edu VIC WA NT Hand", cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+.titulo {
+  color: blue;
+  font-family: "Merriwether", serif;
+  width: 8%;
+  height: 50px;
+  background-color: lightblue;
+  border: 5% solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  height: 10x;
+}
+.recuadro {
+  border: 2px solid black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 15px;
+  margin: 50px;
+  text-align: justify;
+}
+.Barra {
+  position: relative;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 950px;
+}
+.Barra:hover {
+  border-color: blue;
+  transition: border-color 0.3s ease;
+}
+.linea1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.linea2 {
+  padding-bottom: 1px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+p {
+  margin-left: -40px;
+}
+.h2politicas {
+  margin-left: -40px;
+  padding-left: 5px;
+}
+.a-main-politicas {
+  margin-top: 100px;
+  padding-left: 40px;
+}
+.h1-politicas {
+  border-top: none;
+  border-bottom: none;
+}
+.h1-unirse {
+  font-size: 20px;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 0;
+}
+.h2-unirse {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+.h1-contacto {
+  border-top: none;
+  border-bottom: none;
+  margin-left: 0;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.h2-contacto {
+  text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+.h1-politicas {
+  border-top: none;
+  border-bottom: none;
+  margin-left: 0;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.h2-politicas {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: "Arial", sans-serif;
+  margin-left: -40px;
+}
+
+@media (max-width: 768px) {
+  .unete {
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .unete {
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .unete {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .h2-unirse {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .h2-unirse {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .h2-unirse {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 45px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 45px;
+  }
+}
+@media (max-width: 768px) {
+  .recuadro {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .recuadro {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .recuadro {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .politicas {
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .politicas {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .politicas {
+    font-size: 14px;
+  }
+}
+/* Estilos generales */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 10px 10px;
+  background-repeat: repeat;
+}
