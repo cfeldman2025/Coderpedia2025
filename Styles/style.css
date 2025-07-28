@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
   font-size: 35px;
-  text-transform: capitalize;
+  text-transform: none;
   text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -76,6 +76,18 @@ body {
   display: flex;
   align-items: center;
   height: 55px;
+  animation: girar 5s linear infinite;
+}
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  23.08% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 div {
@@ -146,11 +158,11 @@ p {
   border-top: none;
   border-bottom: none;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   margin-left: 0;
 }
 .h2-unirse {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 10px;
   text-decoration: none;
   font-size: 16px;
@@ -186,6 +198,19 @@ p {
   font-size: 15px;
   font-family: "Arial", sans-serif;
   margin-left: -40px;
+}
+
+.footer {
+  padding: 200px;
+}
+.unete {
+  height: 10px;
+  width: 50%;
+}
+.h3-contacto {
+  padding-top: 30px;
+  margin: 5px;
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {
@@ -281,11 +306,7 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.1) 1px,
-    transparent 1px
-  );
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, white 1px);
   background-size: 10px 10px;
   background-repeat: repeat;
 }
