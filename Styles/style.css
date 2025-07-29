@@ -77,6 +77,7 @@ body {
   align-items: center;
   height: 55px;
   animation: girar 5s linear infinite;
+  padding-left: 25px;
 }
 @keyframes girar {
   0% {
@@ -203,6 +204,10 @@ p {
 .footer {
   padding: 200px;
 }
+.footer2 {
+  padding: 50px;
+}
+
 .unete {
   height: 10px;
   width: 50%;
@@ -299,6 +304,43 @@ p {
 @media (min-width: 1024px) {
   .politicas {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .unete {
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .unete {
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .unete {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    width: 30%;
+    margin: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .titulo {
+    width: 40%;
+    margin: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .titulo {
+    width: 50%;
+    margin: 10px;
   }
 }
 /* Estilos generales */
