@@ -68,8 +68,7 @@ body {
 .titulo {
   color: blue;
   font-family: "Merriwether", serif;
-  width: 8%;
-  height: 50px;
+  width: 200px;
   background-color: lightblue;
   border: 5% solid black;
   border-radius: 50%;
@@ -207,8 +206,7 @@ p {
 .footer2 {
   padding: 50px;
 }
-
-.unete {
+.footer- .unete {
   height: 10px;
   width: 50%;
 }
@@ -327,19 +325,19 @@ p {
 
 @media (max-width: 768px) {
   .titulo {
-    width: 30%;
+    width: 100px;
     margin: 10px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .titulo {
-    width: 40%;
+    width: 100px;
     margin: 10px;
   }
 }
 @media (min-width: 1024px) {
   .titulo {
-    width: 50%;
+    width: 100px;
     margin: 10px;
   }
 }

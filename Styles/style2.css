@@ -1,0 +1,17 @@
+.footer2 {
+  color: blue;
+}
+
+.footer {
+  color: blue;
+}
+
+.Barra ::-moz-placeholder {
+  color: blue;
+  font-weight: bold;
+}
+
+.Barra ::placeholder {
+  color: blue;
+  font-weight: bold;
+}/*# sourceMappingURL=style2.css.map */
